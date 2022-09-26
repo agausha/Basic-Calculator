@@ -14,3 +14,7 @@ $box-shadow: hsla(0, 0%, 0%, 0.6);
 $black-color: hsl(0, 0%, 0%);
 $equal-sign-color: hsl(143, 88%, 43%);
 $clear-color: hsl(0, 100%, 58%);
+
+html {
+  box-sizing: border-box;
+}
