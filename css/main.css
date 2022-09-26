@@ -8,4 +8,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(to right, hsl(198deg, 34%, 27%), hsl(194deg, 21%, 16%), hsl(197deg, 50%, 11%));
 }/*# sourceMappingURL=main.css.map */

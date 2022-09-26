@@ -25,4 +25,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(to right, ($background-linear-gradient, $background-linear-gradient-1, $background-linear-gradient-2));
 }
