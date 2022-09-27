@@ -59,3 +59,6 @@ function useOperator(operator) {
   awaitingNextValue = true;
   operatorValue = operator;
 }
+
+// Reset all values display
+function resetAll() {}
