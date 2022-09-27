@@ -30,3 +30,5 @@ function sendNumberValue(number) {
     calculatorDisplay.textContent = displayValue === '0' ? number : displayValue + number;
   }
 }
+
+function addDecimal() {}
