@@ -33,4 +33,5 @@ body {
   font-size: 45px;
   font-family: "Lucida Console", sans-serif;
   font-weight: 100;
+  overflow-x: auto;
 }/*# sourceMappingURL=main.css.map */
