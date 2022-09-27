@@ -11,6 +11,10 @@ body {
   background: linear-gradient(to right, hsl(198deg, 34%, 27%), hsl(194deg, 21%, 16%), hsl(197deg, 50%, 11%));
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
 .calculator {
   background: hsl(0deg, 0%, 100%);
   width: 400px;
