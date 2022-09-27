@@ -22,6 +22,9 @@ body {
 ::-webkit-scrollbar-thumb {
   background: hsl(0deg, 0%, 53%);
 }
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(0deg, 0%, 33%);
+}
 
 .calculator {
   background: hsl(0deg, 0%, 100%);

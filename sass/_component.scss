@@ -10,4 +10,8 @@
 
 ::-webkit-scrollbar-thumb {
   background: $thumb-color;
+
+  &:hover {
+    background: $thumb-hover;
+  }
 }
