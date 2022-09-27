@@ -26,6 +26,10 @@ body {
   background: hsl(0deg, 0%, 33%);
 }
 
+.calculator-buttons {
+  display: grid;
+}
+
 .calculator {
   background: hsl(0deg, 0%, 100%);
   width: 400px;
