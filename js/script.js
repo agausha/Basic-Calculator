@@ -14,3 +14,7 @@ const calculate = {
 
   '=': (firstNumber, secondNumber) => secondNumber,
 };
+
+let firstValue = 0;
+let operatorValue = '';
+let awaitingNextValue = false;
