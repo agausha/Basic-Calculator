@@ -40,4 +40,22 @@ function addDecimal() {
   }
 }
 
-function useOperator(operator) {}
+function useOperator(operator) {
+  const currentValue = Number(calculatorDisplay.textContent);
+  // Prevent multiple operators
+  if (operatorValue && awaitingNextValue) {
+    operatorValue = operator;
+    return;
+  }
+  // Assign firstValue if no value
+  if (!firstValue) {
+    firstValue = currentValue;
+  } else {
+    const calculation = calculate[operatorValue](firstValue, currentValue);
+    calculatorDisplay.textContent = calculation;
+    firstValue = calculation;
+  }
+  // Ready for next value, store operator
+  awaitingNextValue = true;
+  operatorValue = operator;
+}
