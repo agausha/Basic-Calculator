@@ -19,6 +19,10 @@ body {
   background: hsl(0deg, 0%, 95%);
 }
 
+::-webkit-scrollbar-thumb {
+  background: hsl(0deg, 0%, 53%);
+}
+
 .calculator {
   background: hsl(0deg, 0%, 100%);
   width: 400px;
