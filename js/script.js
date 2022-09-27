@@ -19,4 +19,14 @@ let firstValue = 0;
 let operatorValue = '';
 let awaitingNextValue = false;
 
-function sendNumberValue(number) {}
+function sendNumberValue(number) {
+  // Replace current display value if first value is entered
+  if (awaitingNextValue) {
+    calculatorDisplay.textContent = number;
+    awaitingNextValue = false;
+  } else {
+    // If current display value is0, replace it, if not add number
+    const displayValue = calculatorDisplay.textContent;
+    calculatorDisplay.textContent = displayValue === '0' ? number : displayValue + number;
+  }
+}
