@@ -31,4 +31,11 @@ function sendNumberValue(number) {
   }
 }
 
-function addDecimal() {}
+function addDecimal() {
+   // If operator pressed, don't add decimal
+   if (awaitingNextValue) return;
+   // If no decimal, add one
+   if (!calculatorDisplay.textContent.includes('.')) {
+     calculatorDisplay.textContent = `${calculatorDisplay.textContent}.`;
+   }
+}
