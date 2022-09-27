@@ -61,4 +61,9 @@ function useOperator(operator) {
 }
 
 // Reset all values display
-function resetAll() {}
+function resetAll() {
+  firstValue = 0;
+  operatorValue = '';
+  awaitingNextValue = false;
+  calculatorDisplay.textContent = 0;
+}
