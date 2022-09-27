@@ -26,3 +26,11 @@
     overflow-x: auto;
   }
 }
+
+/////////////////////////////////////////
+// MEDIA QUERY: LARGE SMARTPHONE (VERTICAL)
+@media screen and (max-width: 600px) {
+  .calculator {
+    width: 95%;
+  }
+}

@@ -34,4 +34,10 @@ body {
   font-family: "Lucida Console", sans-serif;
   font-weight: 100;
   overflow-x: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .calculator {
+    width: 95%;
+  }
 }/*# sourceMappingURL=main.css.map */
