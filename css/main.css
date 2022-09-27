@@ -26,4 +26,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   border-radius: 10px 10px 0 0;
+}
+.calculator-display h1 {
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */
