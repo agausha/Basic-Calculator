@@ -78,3 +78,6 @@ inputBtns.forEach((inputBtn) => {
     inputBtn.addEventListener('click', () => addDecimal());
   }
 });
+
+// Event Listener
+clearBtn.addEventListener('click', resetAll);
