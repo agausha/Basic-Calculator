@@ -61,4 +61,8 @@ button {
   }
 }
 
-.equal-sign {}
+.equal-sign {
+  grid-column: -2;
+  grid-row: 2 / span 4;
+  background: $equal-sign-color;
+}

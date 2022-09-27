@@ -66,6 +66,12 @@ button:focus {
   filter: brightness(90%);
 }
 
+.equal-sign {
+  grid-column: -2;
+  grid-row: 2/span 4;
+  background: hsl(143deg, 88%, 43%);
+}
+
 .calculator {
   background: hsl(0deg, 0%, 100%);
   width: 400px;
