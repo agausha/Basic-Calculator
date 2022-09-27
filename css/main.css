@@ -52,6 +52,12 @@ button:focus {
   outline: none;
 }
 
+.operator {
+  background: hsl(0deg, 0%, 50%);
+  color: hsl(0deg, 0%, 100%);
+  font-size: 30px;
+}
+
 .calculator {
   background: hsl(0deg, 0%, 100%);
   width: 400px;

@@ -46,4 +46,8 @@ button {
   }
 }
 
-.operator {}
+.operator {
+  background: $operator-color;
+  color: $text-color;
+  font-size: 30px;
+}
