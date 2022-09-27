@@ -22,4 +22,5 @@ body {
   background: hsl(0deg, 0%, 0%);
   color: hsl(0deg, 0%, 100%);
   margin: 0;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
