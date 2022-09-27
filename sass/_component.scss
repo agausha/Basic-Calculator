@@ -52,4 +52,11 @@ button {
   font-size: 30px;
 }
 
-.clear {}
+.clear {
+  background: $clear-color;
+  color: $text-color;
+
+  &:hover {
+    filter: brightness(90%);
+  }
+}
