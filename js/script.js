@@ -18,3 +18,5 @@ const calculate = {
 let firstValue = 0;
 let operatorValue = '';
 let awaitingNextValue = false;
+
+function sendNumberValue(number) {}
